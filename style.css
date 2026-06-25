@@ -26,6 +26,12 @@ body {
     pointer-events: none;
     mix-blend-mode: difference;
     z-index: 9999;
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform .3s ease;
+}
+
+.cursor.active {
+    transform: translate(-50%, -50%) scale(1.5);
 }
 
 /* ==== Header Start ==== */
